@@ -1,0 +1,75 @@
+{
+  "character": {
+    "name": "Lia",
+    "look": "a young Brazilian woman, 24 years old, warm light-brown skin, long dark wavy hair, brown eyes, light natural freckles, slim athletic build, small gold hoop earrings",
+    "brief": "Photorealistic lifestyle influencer character sheet. A young Brazilian woman, 24 years old, warm light-brown skin, long dark wavy hair, brown eyes, light natural freckles, slim athletic build, small gold hoop earrings. Friendly approachable expression, healthy glowing skin, natural makeup, minimal styling. Clean neutral studio background, soft window light, 35mm editorial photography, realistic skin texture, no text, no watermark.",
+    "model_version": "v2"
+  },
+  "defaults": {
+    "duration": 8,
+    "resolution": "1080p",
+    "video_model": "pixverse"
+  },
+  "videos": [
+    {
+      "slug": "cafe-da-manha",
+      "hook": "POV: sua manhã finalmente deu certo",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "duration": 8,
+      "image_prompt": "Vertical 9:16 portrait of {look}, sitting by a sunny kitchen window holding a ceramic coffee mug, oversized beige knit sweater, messy morning hair, soft golden sunlight on her face, cozy plants and linen curtains blurred behind, warm tones, shallow depth of field, 35mm editorial photography, natural skin texture, no text, no watermark",
+      "motion_prompt": "She lifts the mug and takes a slow sip, looks out the window and smiles softly, steam rising, hair moving slightly, gentle handheld camera push-in, warm morning light flickering, cinematic slow motion",
+      "caption": "começar o dia assim deveria ser lei ☕️ qual é o teu ritual de manhã?",
+      "hashtags": ["#morningroutine", "#grwm", "#lifestyle", "#cafedamanha", "#aesthetic", "#fyp"]
+    },
+    {
+      "slug": "academia",
+      "hook": "GRWM pra treinar às 6h",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "duration": 8,
+      "image_prompt": "Vertical 9:16 portrait of {look}, in a modern gym, wearing a fitted sage green sports set, hair in a high ponytail, adjusting her ponytail while looking at herself, mirrored walls and gym equipment blurred behind, cool daylight, subtle sweat glow, 35mm editorial photography, natural skin texture, no text, no watermark",
+      "motion_prompt": "She tightens her ponytail, exhales, turns her head toward the camera with a confident smile, subtle weight shift, camera slowly orbits to the left, gym light reflecting on the mirror, cinematic realistic motion",
+      "caption": "6h da manhã e o treino já tá pago ✅ me conta: tu treina de manhã ou de noite?",
+      "hashtags": ["#gymtok", "#grwm", "#fitness", "#treino", "#gymmotivation", "#fyp"]
+    },
+    {
+      "slug": "street-style",
+      "hook": "OOTD de rua que não erra",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "duration": 8,
+      "image_prompt": "Vertical 9:16 full-body portrait of {look}, walking on a busy city street at golden hour, wearing a black oversized blazer, white crop top, wide-leg jeans and white sneakers, hair blown by a light breeze, warm sunset light on buildings, motion-blurred cars and pedestrians behind, 35mm editorial street style photography, natural skin texture, no text, no watermark",
+      "motion_prompt": "She walks toward the camera confidently, blazer moving with her stride, hair flowing, natural gait, camera pulls back slowly tracking her, golden hour lens flare, cinematic realistic motion",
+      "caption": "o look que resolve qualquer dia corrido 🖤 salva pra te inspirar",
+      "hashtags": ["#ootd", "#streetstyle", "#fashion", "#lookdodia", "#styleinspo", "#fyp"]
+    },
+    {
+      "slug": "praia",
+      "hook": "Golden hour na praia, sem edição",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "duration": 8,
+      "image_prompt": "Vertical 9:16 portrait of {look}, standing on a tropical beach at sunset, wearing a flowing white linen dress, barefoot in the wet sand, hair moving in the sea breeze, warm golden backlight and sun flare behind her head, gentle waves and palm silhouettes blurring in the background, 35mm editorial photography, natural skin texture, no text, no watermark",
+      "motion_prompt": "She turns her face toward the sunset, closes her eyes and smiles, dress and hair flowing in the wind, waves rolling in behind, slow camera push-in with warm lens flare, cinematic slow motion",
+      "caption": "golden hour é meu horário favorito do dia 🌅 marca alguém pra ir contigo",
+      "hashtags": ["#goldenhour", "#praia", "#summer", "#travel", "#aesthetic", "#fyp"]
+    },
+    {
+      "slug": "night-out",
+      "hook": "Se arrumando pra sair, do zero",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "duration": 8,
+      "image_prompt": "Vertical 9:16 portrait of {look}, getting ready in front of a mirror in a dim bedroom, wearing a satin black slip dress, gold jewellery, glossy lips, putting on an earring, warm lamp light and pink neon glow across the wall, cosmetic products blurred on the vanity, 35mm editorial photography, natural skin texture, no text, no watermark",
+      "motion_prompt": "She fastens her earring, checks her reflection, turns toward the camera with a confident smile, earrings catching the neon light, subtle camera dolly to the right, cinematic realistic motion",
+      "caption": "a energia de uma noite de sexta em 8 segundos ✨ quem vai sair hoje?",
+      "hashtags": ["#getready", "#grwm", "#nightout", "#makeup", "#fridayvibes", "#fyp"]
+    },
+    {
+      "slug": "unboxing",
+      "hook": "Chegou a encomenda que eu esperei 3 semanas",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "duration": 8,
+      "image_prompt": "Vertical 9:16 portrait of {look}, sitting on a light beige sofa holding an open kraft delivery box, wearing a cozy oatmeal cardigan, excited curious expression, small apartment with warm daylight and plants blurred behind, a few packing papers visible inside the box, 35mm editorial photography, natural skin texture, no text, no watermark",
+      "motion_prompt": "She pulls the box open, peeks inside with wide excited eyes, lifts a small item out and holds it toward the camera, camera pushes in slightly, warm daylight shifting, cinematic realistic motion",
+      "caption": "unboxing do dia 📦 valeu a espera? conta aí o que eu abro no próximo",
+      "hashtags": ["#unboxing", "#haul", "#shopping", "#lifestyle", "#achadinhos", "#fyp"]
+    }
+  ]
+}

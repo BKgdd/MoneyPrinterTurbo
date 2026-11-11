@@ -585,7 +585,12 @@ def run(plan: dict[str, Any], args: argparse.Namespace) -> int:
 
     saved_character = _read_saved_character(character_file)
     needs_character = bool(args.reference_url) or args.create_character
-    identity_look = look if needs_character else NEUTRAL_LOOK
+    # The persona look only drives the character sheet. Whenever the identity
+    # comes from a Soul ID (reused or trained on the user's photos) the prompt
+    # must not describe a different face.
+    identity_look = (
+        look if (args.create_character and not args.reference_url) else NEUTRAL_LOOK
+    )
 
     print(f"Plan: {len(videos)} video(s) from {args.plan}")
     for video in videos:
